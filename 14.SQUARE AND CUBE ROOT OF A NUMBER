@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	int n=4;
+	double sq,cb;
+	sq=sqrt(n);
+	cb=cbrt(n);
+	cout<<"square root="<<sq<<endl;
+	cout<<"cube root="<<cb<<endl;
+	return 0;
+}
