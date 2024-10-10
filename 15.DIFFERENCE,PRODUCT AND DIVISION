@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a=5,b=5,p,q,r;
+	p=a-b;
+	q=a*b;
+	r=a/b;
+	cout<<"diff"<<p<<endl;
+	cout<<"mul"<<q<<endl;
+	cout<<"div"<<r<<endl;
+	return 0;
+}
